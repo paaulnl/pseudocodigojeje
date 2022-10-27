@@ -1,0 +1,13 @@
+## PSEUDOCODIGO CON ATRIBUTOS
+### class de el almacen
+class products 
+{
+    name="" #nombre del producto
+    quantity=0 #cantidad de productos
+    barcode=0 #codigo de barras del producto
+    brand="" #Marca del producto
+    price=0  #precio del producto
+    expirationdate = 0  #fecha de expiracion del producto
+
+
+}
