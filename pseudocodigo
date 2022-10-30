@@ -1,13 +1,27 @@
 ## PSEUDOCODIGO CON ATRIBUTOS
-### class de el almacen
 class products 
 {
-    name="" #nombre del producto
-    quantity=0 #cantidad de productos
+    ##atributos
+    name='' #nombre del producto
     barcode=0 #codigo de barras del producto
-    brand="" #Marca del producto
+    quantity=0 #cantidad de productos disponibles 
+    brand='' #Marca del producto
     price=0  #precio del producto
     expirationdate = 0  #fecha de expiracion del producto
-
+    category ='' # en que categoria entra el producto
+    volume = 0  #ml o gramos.
+    location = '' #lugar o bodega en el que se encuentra 
+    ## fin de atributos
+    
+    ##Inicio de metodos
+    change_quantity(quantity)  ##agregar o quitar cantidad de producto
+    change_price(price)   ## cambiar precio segun lo estimulado por el proveedor
+    change_location(locatiobn)   ##cambiarla ubicacion del producto
+    warning_quantity(quantity) ## dar aviso si el stock del producto es bajo
+    
+    
+    ##fin de metodos
+    
+    
 
 }
